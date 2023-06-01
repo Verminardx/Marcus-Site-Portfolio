@@ -1,0 +1,400 @@
+#corpo{
+
+    background-color:  #01121b;
+    font-family: 'Roboto','Inter',sans-serif;
+    padding: 0;
+ 
+   
+}
+
+
+
+header nav{
+
+    background-color: #01121b60;
+   
+}
+
+
+nav li {
+
+padding-left: 15px;
+
+}
+
+img{
+
+    -webkit-box-shadow: 5px 5px 37px 17px #000000; 
+    box-shadow: 5px 5px 37px 17px #000000;
+}
+
+
+
+
+  p{
+
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    
+ }      
+
+
+
+ h1 {
+
+    color: white;
+ }
+
+
+ main h1{
+
+    color: white;
+    font-weight: 100;
+    
+ }
+
+
+
+main div{
+
+    background-color: #05323d;
+
+}
+
+
+
+#video{
+
+    display: cover;
+    width: 100%;
+    
+}
+
+
+
+#custom-cards{
+    background-color: #01121b;
+
+
+
+}
+
+
+#albumContainer div{
+    background-color:  #ffffffce;
+   
+
+
+}
+
+
+
+.nav-link{
+
+    color: aliceblue;
+}
+
+/*customizando  Cards = backgrounds,textos da Aba Design */
+
+.card-text {
+
+color: #01121b;
+font-size: small;
+
+}
+
+
+.col {
+
+   padding: 10px;
+}
+
+.col img{
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.col video{
+
+    padding: 5px;
+}
+
+
+
+/*customizando  Cards = backgrounds,textos  da aba Desenvolvimento web */
+
+.card-group{
+
+background-color:  #ffffffce;
+padding:20px;
+margin: 20px;
+border-radius: 5px;
+
+}
+
+.card-group div{
+
+background-color: rgb(238, 238, 238);
+padding: 5px;
+border-color: white ;
+border-width: 2px;
+
+
+}
+
+
+.card-group p{
+    color: white;
+
+}
+
+
+.card-group .card{
+
+    border-radius: 10px;
+  
+    background-color: rgb(115, 121, 128);
+   
+    
+    
+}
+
+
+.card-group .card-body{
+
+    background-color: rgb(145, 141, 151);
+}
+
+
+.card-group img{
+    border-radius: 5px;
+}
+
+.card-group video{
+
+    border-radius:5px;
+   
+
+}
+
+
+
+/*icone principal menu Home */
+
+.navbar-brand{
+    padding: 5px;
+}
+ 
+
+
+.navbar-brand:hover{
+
+
+    transform: scale(1.1);
+    transition: 1.0s;
+    background-color:rgba(0, 255, 255, 0.596);
+    left: 0;
+    border-radius: 2%;
+    
+    
+       
+    }
+
+    
+    /*animações*/
+    
+
+
+/* animação do menu textos */
+
+
+
+.nav-item::before{
+    content:"";
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    width: 0%;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+
+
+
+.nav-item:hover::before{
+    content:"";
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    height: 2px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+
+
+
+.nav-link:hover{
+content: "";
+transform: scale(1.05);
+transition: 1.0s;
+border-radius: 5%;
+
+
+}
+
+
+
+/*animação do hero */
+
+
+    .animate-logo:hover{
+
+        transform: scale(1.4);
+        transition: 2.0s;
+
+    }
+
+
+
+
+
+
+/* animações dos icones da navegação*/
+
+.nav-icon a:hover{
+
+    transform: scale(1.5);
+    transition: 1.0s;
+    background-color: rgba(0, 255, 255, 0.596);
+    left: 0;
+ 
+  
+}
+
+/*icones da aba apresentação */
+
+.iconeApresentação{
+    padding: 10px;
+    
+
+}
+
+
+.iconeApresentação:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color:rgba(0, 255, 255, 0.596);
+    
+    left: 0;
+    
+
+}
+
+
+
+/*animação icone do footer*/
+
+
+
+.text-body-secondary{
+
+
+padding: 10px;
+
+}
+
+.text-body-secondary:hover{
+   
+    transition: 1.5s;
+    left: 0;
+   
+
+}   
+
+
+.nav li:hover {
+    transform: scale(1.5);
+    transition: 1.0s;
+
+
+}
+
+/* animando todos os cards  */
+
+
+
+
+.card:hover{
+
+    transform: scale(1.02);
+    transition: 1.0s;
+   
+
+}
+
+
+/*adicionando opacity  nos cards continue vendo da aba index */
+
+
+.col:hover{
+
+filter: opacity(80%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animação  Divisões
+
+
+[data-anime]{
+
+    opacity: 0;
+    transition: .3s;
+
+
+}
+
+
+[data-anime="left"]{
+
+        transform: translate3d(-50px, 0, 0);
+
+}
+
+[data-anime="right"]{
+
+    transform: translate3d(50px, 0, 0);
+
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+
+}
+
+*/
