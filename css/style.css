@@ -22,11 +22,46 @@ padding-left: 15px;
 
 }
 
+.nav-link{
+
+    color: aliceblue;
+}
+
+
+
+
+
+/*icone principal menu Home */
+
+.navbar-brand{
+    padding: 5px;
+}
+ 
+
+
+.navbar-brand:hover{
+
+
+    transform: scale(1.1);
+    transition: 1.0s;
+    background-color:rgba(0, 255, 255, 0.596);
+    left: 0;
+    border-radius: 2%;
+    
+    
+       
+    }
+
+
 img{
 
     -webkit-box-shadow: 5px 5px 37px 17px #000000; 
     box-shadow: 5px 5px 37px 17px #000000;
 }
+
+
+
+
 
 
 
@@ -90,10 +125,65 @@ main div{
 
 
 
-.nav-link{
 
-    color: aliceblue;
-}
+
+
+/*customizando botões */
+
+
+.btnStyle {
+
+
+    border-style: groove;
+    border-width: 2px;
+    border-color: #011C26;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(#025959,#011C26)  ;
+    color:white ;
+    border-radius:5%;
+    margin: 15px;
+  
+    width: auto;
+    height: auto;
+    font-size: medium;
+    text-decoration: none;
+    box-shadow: -1px 10px 20px 10px rgba(0, 0, 0, 0.726);
+
+   
+    
+    
+    
+    
+    }
+    
+    
+    .btnStyle::before{
+    
+        transform:  scale(1.10) ;
+        transition: 0.5s;
+        background-color: #49BF7C ;
+    
+    
+    }
+    
+    
+    
+    .btnStyle:hover{
+        transform: scale(1.10);
+        transition: ease-in-out  0.5s;
+        background: #49BF7C ;
+        -webkit-box-shadow:   5px 5px 37px 17px ; 
+        border-color: #038C73;
+        box-shadow: 5px 5px 37px 17px  #49BF7C ;
+        color: white;
+        text-shadow:  0 0 8px rgba(255, 255, 255, 0.3),0 0 29px #49BF7C;
+            
+    
+    }
+    
+
 
 /*customizando  Cards = backgrounds,textos da Aba Design */
 
@@ -181,26 +271,6 @@ border-width: 2px;
 
 
 
-/*icone principal menu Home */
-
-.navbar-brand{
-    padding: 5px;
-}
- 
-
-
-.navbar-brand:hover{
-
-
-    transform: scale(1.1);
-    transition: 1.0s;
-    background-color:rgba(0, 255, 255, 0.596);
-    left: 0;
-    border-radius: 2%;
-    
-    
-       
-    }
 
     
     /*animações*/
