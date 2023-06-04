@@ -91,11 +91,6 @@ img{
 
 
 
-main div{
-
-    background-color: #05323d;
-
-}
 
 
 
@@ -200,7 +195,7 @@ main div{
     width: 50px;
     font-size: smaller;
     text-decoration: none;
-    box-shadow: -1px 2px 15px 1px rgba(0, 0, 0, 0.404);
+    box-shadow: -1px 2px 15px 1px rgba(0, 0, 0, 0.726);
 
 }
 
@@ -264,25 +259,27 @@ font-size: small;
 
 .card-group{
 
-background-color:  #ffffffce;
+background-color: #02344081;
 padding:20px;
 margin: 20px;
 border-radius: 5px;
+color: white;
 
 }
 
 .card-group div{
 
-background-color: rgb(238, 238, 238);
+background-color:#011c26f5;
 padding: 5px;
-border-color: white ;
-border-width: 2px;
+border-color: #038C73;
+border-width: 1.5px;
 
 
 }
 
 
 .card-group p{
+    
     color: white;
 
 }
@@ -292,7 +289,7 @@ border-width: 2px;
 
     border-radius: 10px;
   
-    background-color: rgb(115, 121, 128);
+    background-color: #023440;
    
     
     
@@ -301,7 +298,7 @@ border-width: 2px;
 
 .card-group .card-body{
 
-    background-color: rgb(145, 141, 151);
+    background-color:#025959  ;
 }
 
 
@@ -377,9 +374,14 @@ border-radius: 5%;
 
         transform: scale(1.4);
         transition: 2.0s;
-
+       
     }
 
+    .animate-logo img:hover{
+
+        box-shadow: -1px 10px 5px 5px #49BF7C;
+       
+    }
 
 
 
@@ -454,6 +456,7 @@ padding: 10px;
 .card:hover{
 
     transform: scale(1.02);
+    color: #038C73;
     transition: 1.0s;
    
 
@@ -466,6 +469,7 @@ padding: 10px;
 .col:hover{
 
 filter: opacity(80%);
+
 }
 
 
