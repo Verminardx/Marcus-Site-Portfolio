@@ -202,6 +202,9 @@ img{
 
 
 
+
+
+
 .btnStyleSmall:hover{
     transform: scale(1.10);
     transition: ease-in-out  0.5s;
@@ -375,14 +378,24 @@ border-radius: 5%;
         transform: scale(1.4);
         transition: 2.0s;
        
-    }
-
-    .animate-logo img:hover{
-
-        box-shadow: -1px 10px 5px 5px #49BF7C;
        
     }
 
+    .imgHeroAnime{
+        filter: drop-shadow(-2px 2px  15px  #ffff);
+
+
+
+
+    }
+
+
+   .imgHeroAnime:hover{
+        filter: brightness(102%)  drop-shadow(-2px 2px  15px  #02ff70);
+        
+       
+
+   }
 
 
 
