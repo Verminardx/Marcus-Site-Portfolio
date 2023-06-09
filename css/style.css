@@ -71,9 +71,10 @@ img{
     color: white;
     font-size: medium;
     font-weight: 100;
+    text-shadow:  0 0 8px rgba(255, 255, 255, 0.3),0 0 29px #49BF;
     
  }      
-
+ 
 
 
  h1 {
