@@ -70,7 +70,7 @@ img{
 
     color: white;
     font-size: medium;
-    font-weight: 100;
+    font-weight: 100;  
     
  }      
 
@@ -79,6 +79,7 @@ img{
  h1 {
 
     color: white;
+    text-shadow: 2px 2px 1px #027368;
  }
 
 
@@ -86,6 +87,7 @@ img{
 
     color: white;
     font-weight: 100;
+    text-shadow: 2px 2px 5px #027368;
     
  }
 
@@ -123,6 +125,51 @@ img{
 
 
 }
+
+
+
+.animate-logo{
+
+    background-color: #0da1f134;
+    border-radius: 5px ;
+    border-color:  #038C73;
+    border-width: 2px;
+    border-style: solid;
+ 
+}
+
+
+
+
+
+/*animação do hero */
+
+
+.animate-logo:hover{
+
+    transform: scale(1.4);
+    transition: 2.0s;
+   
+   
+}
+
+.imgHeroAnime{
+    filter: drop-shadow(-2px 2px  15px  #ffff);
+   
+
+
+
+}
+
+
+.imgHeroAnime:hover{
+    filter: brightness(102%)  drop-shadow(-2px 2px  15px  #59fca0);
+    
+   
+
+}
+
+
 
 
 
@@ -218,7 +265,6 @@ img{
     -webkit-box-shadow:   5px 5px 37px 17px ; 
     border-color: #038C73;
     box-shadow: -2px 5px 35px 17px  #49BF7C ;
-    color: white;
     text-shadow:  0 0 8px rgba(255, 255, 255, 0.3),0 0 29px #49BF7C;
         
 
@@ -375,33 +421,6 @@ border-radius: 5%;
 }
 
 
-
-/*animação do hero */
-
-
-    .animate-logo:hover{
-
-        transform: scale(1.4);
-        transition: 2.0s;
-       
-       
-    }
-
-    .imgHeroAnime{
-        filter: drop-shadow(-2px 2px  15px  #ffff);
-       
-
-
-
-    }
-
-
-   .imgHeroAnime:hover{
-        filter: brightness(102%)  drop-shadow(-2px 2px  15px  #59fca0);
-        
-       
-
-   }
 
 
 
