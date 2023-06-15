@@ -79,7 +79,7 @@ img{
  
 
 
- h1 {
+ div h1 {
 
     color: white;
     text-shadow: 2px 2px 1px #027368;
@@ -93,6 +93,26 @@ img{
     text-shadow: 2px 2px 5px #027368;
     
  }
+
+
+
+#hanging-icons{
+background-color: #038C73;
+border-radius: 5px;
+
+
+}
+
+ div h2{
+    color: white;
+ }
+
+
+    div h3{
+        padding: 5px;
+        color: white;
+        text-shadow: 2px 2px 5px #027368;
+    }
 
  main div{
 
