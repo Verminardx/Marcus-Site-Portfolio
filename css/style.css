@@ -79,6 +79,10 @@ img{
     text-shadow: 2px 2px 1px #027368;
  }
 
+ div h6{
+    color:#038C73;
+ }
+
 
  main h1{
 
@@ -91,14 +95,20 @@ img{
 
 
 #hanging-icons{
-background-color: #038C73;
+
 border-radius: 5px;
+border-color:  #038C73;
+border-width: 1px;
+border-style: solid;
 
 
 }
 
  div h2{
     color: white;
+    border-bottom: solid  #038C73;
+    
+    border-width: 1px;
  }
 
 
