@@ -169,6 +169,10 @@ border-style: solid;
 
     transform: scale(1.2);
     transition: 1.0s;
+    -webkit-box-shadow:   5px 5px 37px 17px ; 
+    border-color:  #66D98E;
+    box-shadow: 5px 5px 37px 17px  #66D98E;
+    filter: brightness(110%);
    
    
 }
