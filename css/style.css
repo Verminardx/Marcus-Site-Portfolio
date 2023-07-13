@@ -54,11 +54,14 @@ padding-left: 15px;
     }
 
 
-img{
+   #navbar-logo {
 
     -webkit-box-shadow: 5px 5px 37px 17px #000000; 
     box-shadow: 5px 5px 37px 17px #000000;
 }
+
+
+
 
 
   p{
@@ -146,7 +149,7 @@ border-style: solid;
 
 
 
-
+/* configuração de estilo dos icones do hero */
 
 .animate-logo{
 
@@ -310,7 +313,7 @@ border-style: solid;
 
 .card-text {
 
-color: #01121b;
+color: white;
 font-size: small;
 
 }
@@ -464,6 +467,11 @@ border-radius: 5%;
   
 }
 
+
+
+
+
+
 /*icones da aba apresentação */
 
 .iconeApresentação{
@@ -516,13 +524,27 @@ padding: 10px;
 /* animando todos os cards  */
 
 
+.col .card{
+
+border-width: 2px;
+border-color: #027368;
+border-style: solid;
+background-color: #023440;
+
+}
+
+
 
 
 .card:hover{
 
     transform: scale(1.02);
-    color: #038C73;
     transition: 1.0s;
+    -webkit-box-shadow:   5px 5px 37px 17px ; 
+    box-shadow: 5px 5px 37px 17px  #66D98E;
+    border-width:  3px;
+    filter: brightness(110%);
+    
    
 
 }
@@ -534,6 +556,7 @@ padding: 10px;
 .col:hover{
 
 filter: opacity(80%);
+
 
 }
 
